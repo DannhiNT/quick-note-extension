@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "QuickNote",
+  "description": "This is a quick note-taking extension of simple design. You can take note in many note-pads, save them, or delete with basic buttons. The extension is convenient for taking pop-up ideas.",
+  "version": "1.0",
+  "author": "Nhi Nguyen",
+  "permissions": [
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  }
+}

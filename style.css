@@ -1,0 +1,108 @@
+body {
+  font-family: 'Barlow', Arial, Helvetica, sans-serif, sans-serif;
+  background-color: rgb(233, 237, 201);
+  font-size: 35px;
+  min-height: 100vh;
+  width: 400px;
+}
+
+h2 {
+  text-align: center;
+}
+
+#notes-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.addNote {
+  background-color: rgb(250, 216, 239);
+  border-radius: 10px;
+  border: none;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#addNote:hover,
+#deleteBtn:hover,
+#saveBtn:hover {
+  transition: 0.25s;
+  background-color: #cb7c7c;
+}
+
+.container {
+  position: relative;
+}
+
+.note-pad {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  min-height: 150px;
+  background-color: rgb(254, 250, 224);
+  border-style: solid;
+  border-radius: 10px;
+  border: none;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+textarea {
+  resize: none;
+  width: 350px;
+  height: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  background-color: rgb(254, 250, 224);
+}
+
+#deleteImg {
+  position: absolute;
+  bottom: 15px;
+  right: 25px;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 32px;
+}
+
+#saveImg {
+  position: absolute;
+  bottom: 15px;
+  right: 75px;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 24px;
+}
+
+#saveImg:hover,
+#deleteImg:hover {
+  transition: 0.5s;
+  opacity: 0.5;
+}
